@@ -4,7 +4,6 @@ import Shimmer from "./Shimmer";
 
 function News({ category }) {
     const [loading, setLoading] = useState(true);
-
     const [news, setNews] = useState({});   
     useEffect(() => {
         setLoading(true);
@@ -12,7 +11,7 @@ function News({ category }) {
     }, [category]);
 
     async function getNews() {
-        const data = await fetch(`https://newsapi.org/v2/top-headlines?country=IN&category=${category}&apiKey=318ac79a1f104a85b6975ee739bc3abc`);
+        const data = await fetch(`https://corsproxy.io/?https://newsapi.org/v2/top-headlines?country=IN&category=${category}&apiKey=318ac79a1f104a85b6975ee739bc3abc`);
         const json = await data.json();
         setNews(json);
         console.log(json);
