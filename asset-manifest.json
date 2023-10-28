@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Taaza-Khabar-NewsApp/static/css/main.5b967daf.css",
-    "main.js": "/Taaza-Khabar-NewsApp/static/js/main.d1ce9544.js",
+    "main.js": "/Taaza-Khabar-NewsApp/static/js/main.b3702a53.js",
     "index.html": "/Taaza-Khabar-NewsApp/index.html",
     "main.5b967daf.css.map": "/Taaza-Khabar-NewsApp/static/css/main.5b967daf.css.map",
-    "main.d1ce9544.js.map": "/Taaza-Khabar-NewsApp/static/js/main.d1ce9544.js.map"
+    "main.b3702a53.js.map": "/Taaza-Khabar-NewsApp/static/js/main.b3702a53.js.map"
   },
   "entrypoints": [
     "static/css/main.5b967daf.css",
-    "static/js/main.d1ce9544.js"
+    "static/js/main.b3702a53.js"
   ]
 }
